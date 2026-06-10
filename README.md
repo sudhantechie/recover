@@ -61,8 +61,7 @@ python recover.py disk.dd --dry-run
 python recover.py disk.dd --min-size 4096 --report results.json
 
 # Full run
-python recover.py disk.dd -o ./out -v --ext jpg png pdf \
-       --min-size 1024 --checksum --report run.json --log run.log
+python recover.py disk.dd -o ./out -v --ext jpg png pdf --min-size 1024 --checksum --report run.json --log run.log
 ```
 
 ---
