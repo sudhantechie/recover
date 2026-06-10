@@ -37,7 +37,6 @@ brew install sleuthkit            # macOS
 
 # 2. Clone and run
 git clone https://github.com/sudhantechie/recover
-cd recover
 python recover.py disk.dd
 ```
 
