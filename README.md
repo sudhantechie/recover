@@ -68,27 +68,6 @@ python recover.py disk.dd -o ./out -v --ext jpg png pdf \
 
 ---
 
-## Output
-
-```
-  ✔  inode 1024     documents/report.pdf    (142.3 KB)  md5: a3f9b2c1...
-  ✔  inode 1031     photos/vacation.jpg     (3.8 MB)
-  ⚠  [type mismatch]  notes/draft.txt
-  ✖  inode 1099     cache/tmp0.bin
-
-  ══════════════════════════════════════════════════════════
-
-  Recovery complete  (4.2 seconds)
-
-  ✔  47 recovered
-  –  12 skipped
-  ✖  1  failed
-
-  Saved to: ./recovered
-```
-
----
-
 ## All flags
 
 | Flag | Description | Default |
